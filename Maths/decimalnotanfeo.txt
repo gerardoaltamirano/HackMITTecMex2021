@@ -1,6 +1,6 @@
-Carlos quiere repartir una quinta parte de sus ahorros entre sus 
-doce sobrinos. Si Carlos ha ahorrado $20662.80, ¿cuánto le toca
-a cada sobrino?
+Carlos wants to distribute a fifth of his savings among his
+twelve nephews. If Carlos has saved $ 20,662.80, how much does he have?
+to each nephew?
 
-Da tu respuesta sin unidades.
+Give your answer without units.
 ___
