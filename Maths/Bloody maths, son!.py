@@ -12,7 +12,7 @@ def nombre_u():
     
     global nombre
     
-    name = input("\nIntroduce your name ")
+    name = input("\nIntroduce your name: ")
     nombre = name
     print("\nFuck, what a great name")
     
@@ -202,8 +202,6 @@ def divisiones_con_decimales():
         hello = open("hola.txt","r",encoding="utf8")
         holi = hello.read()
         print(holi)
-        print('''\nFor graphical explanations of how the divisions of the examples were made, visit: .
-of the examples, please visit: https://sabnrs.wixsite.com/matematicashijo''')
         
         cual()
     #function asking the user for the case he/she wants to see
@@ -500,7 +498,7 @@ def certificado():
                             
              Bloody Maths, son! is proud to award this diploma to:
                 
-                                {name}
+                                {nombre}
                                 
                     for having successfully completed all 6 levels of the game.
                     
