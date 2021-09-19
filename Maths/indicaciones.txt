@@ -1,5 +1,5 @@
-A partir de ahora, no podrás volver al menú principal
+From now on, you will not be able to return to the main menu
 
-Los ejercicios y problemas se te presentarán uno a uno, en caso de 
-equivocarte en alguno regresarás al anterior, por ejemplo, si te equivocas
-en el 4, regresas al 3
+The exercises and problems will be presented to you one by one, in case of
+make a mistake in one, you will return to the previous one, for example, if you make a mistake
+in 4, you go back to 3
