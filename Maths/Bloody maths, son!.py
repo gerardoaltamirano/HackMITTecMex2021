@@ -508,7 +508,7 @@ def certificado():
                                     
                                     And never forget...
                                 
-                                    MATH, SON!
+                                    Bloody Maths, SON!
 
 
                                     
