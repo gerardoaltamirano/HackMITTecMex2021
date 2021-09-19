@@ -59,7 +59,7 @@ Hangman= ['''
           |
     =========''']
 
-print("Welcome to Hangman Orthography Trainer!")
+print("Welcome to Hangman Spelling Trainer!")
 
 print("In this game a random word will be selected from our library and you will have to guess it letter by letter.")
 
@@ -67,7 +67,7 @@ print("But be careful because if the drawing fills up, you lose!")
 
 print("Good luck!")
 
-words = 'teacher programmer rating food game rocket impossible variable flying head player gaze writer ticket pen cell phone value free magazine disk volleyball star ring'.split()
+palabras = 'teacher programmer rating food game rocket impossible variable flying head player gaze writer ticket pen cell phone value free magazine disk volleyball star ring'.split()
  
 def buscarPalabraAleat(listaPalabras):
     # Esta funcion retorna una palabra aleatoria.
@@ -128,7 +128,7 @@ while True:
                 letrasEncontradas = False
                 break
         if letrasEncontradas:
-            print ('Great! The secret word is "' + palabraSecreta + '"! ¡You won!')
+            print ('Great! The secret word is "' + palabraSecreta + '"! You won!')
             finJuego = True
     else:
         letraIncorrecta = letraIncorrecta + letra
