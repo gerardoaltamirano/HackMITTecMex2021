@@ -1,7 +1,7 @@
-Pepe se encuentra haciendo unos pasteles. Por un error de cálculo, 
-se da cuenta de que tendrá que repartir la mitad de 647.53 gramos
-de mantequilla entre seis y medio pasteles. ¿Cuántos gramos de 
-mantequilla le tocarían a cada pastel?
+Pepe is making some cakes. Due to a miscalculation,
+realizes that he will have to dispense half of 647.53 grams
+of butter between six and a half cakes. How many grams of
+butter would they touch each cake?
 
-Da tu respuesta sin unidades.
+Give your answer without units.
 ___
