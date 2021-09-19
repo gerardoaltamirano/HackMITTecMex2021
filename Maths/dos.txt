@@ -1,0 +1,23 @@
+2. Cuando tenemos el punto decimal en el divisor
+
+El divisor se refiere a los números afuera de la "casita", lo que
+hay que hacer es ubicar al punto decimal ahí y contar cuántos
+espacios le faltan para llegar a ser un número "entero". Es lo mismo
+que contar los espacios a la derecha del punto. 
+Tomemos como ejemplo esta división: 377÷2.6. En este caso,  para el 
+el divisor "2.6", hay 1 espacio a la derecha del punto. 
+
+Cuando hayas contado estos espacios, este es el número de ceros
+que deberás agregar al dividendo antes de poder hacer la división.
+En este ejemplo, en lugar de 377/2.6, te quedará entonces 3770/26.
+
+Hay que hacer la división con estos números, 3770/26.
+El resultado da 145 tal cual, no hay que modificarlo de ninguna forma, 
+pero el divisor se queda como era originalmente. El resultado de 377/2.6
+es 145.
+
+Podemos comprobar el resultado multiplicando este resultado por
+el divisor, y esta operación nos debería dar el dividendo.
+Al multiplicar 145 x 2.6, lo que nos da es 377, por lo que es nuestro
+resultado es correcto. 
+___

@@ -1,0 +1,5 @@
+Puedes continuar viendo métodos o empezar a jugar, estas son tus opciones:
+
+1. Regresar al menú principal
+2. Regresar al menú de los métodos de división de fracciones
+3. Jugar

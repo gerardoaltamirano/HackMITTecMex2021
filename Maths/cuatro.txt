@@ -1,0 +1,18 @@
+4. Cuando originalmente teníamos una división sencilla, pero no es exacta,
+y queremos agregarle decimales al resultado.
+
+Pongamos como ejemplo esta división: 123/2
+Hacemos la división de forma normal, hasta que llegamos al final del
+dividendo y vemos que el residuo final no es 0.
+
+Aquí, agregamos un 0 al residuo que nos haya quedado. En este caso es 1,
+poniéndole un 0 a la derecha se convierte en un 10. Con este número se 
+sigue haciendo la división y se agregan dígitos nuevos al resultado. 
+Antes de esto, hay que poner un punto decimal alineado con el último 
+residuo (en este caso el 1) que obtuvimos, o alineado con el final "original"
+de la división, antes de ponerle un 0 al residuo.
+
+La división se acaba hasta que el residuo final sea 0, o hasta que tengas
+un resultado con el número de decimales que quieras. El resultado de 
+123/2 es 61.5
+___

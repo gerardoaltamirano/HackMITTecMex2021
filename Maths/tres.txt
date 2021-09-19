@@ -1,0 +1,27 @@
+3. Cuando hay punto decimal en el dividendo y en el divisor
+
+Esta es una especie de mezcla de división con el punto en el dividendo 
+y con punto en el divisor. Lo que hay que hacer es ver cuántos espacios 
+hay a la derecha del punto decimal del divisor, o sea el número es que 
+está afuera de la "casita". Usaremos el ejemplo de 224.44/6.2
+
+
+Al hacer esto de los espacios es como si "quitáramos" el punto del divisor. 
+Sabemos que hubo un espacio a la derecha de este punto en 6.2, por lo que 
+también hay que mover el punto del dividendo el mismo número de espacios 
+que dijimos antes. 
+Si hubo dos espacios a la derecha del punto del divisor, movemos el punto 
+del dividendo dos espacios también. 
+Sin embargo, en este caso hubo 1 espacio, por lo que movemos el punto del 
+divisor 1 lugar a la derecha. Nos quedaría como 2244.4/62
+
+Ahora se puede hacer esta división como una división sólo con punto en el
+dividendo (ver caso 1).
+
+
+Nuestro resultado es 36.2, pero nuestro divisor es el original (6.2), y el 
+dividendo también se queda como estaba originalmente o sea (224.44).
+Podemos comprobar multiplicando el resultado por el divisor y ver que nos
+da el dividendo correctamente. 
+Por lo tanto, el resultado de dividir 224.44/6.2 = 36.2
+___

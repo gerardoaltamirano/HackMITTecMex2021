@@ -1,0 +1,7 @@
+Pepe se encuentra haciendo unos pasteles. Por un error de cálculo, 
+se da cuenta de que tendrá que repartir la mitad de 647.53 gramos
+de mantequilla entre seis y medio pasteles. ¿Cuántos gramos de 
+mantequilla le tocarían a cada pastel?
+
+Da tu respuesta sin unidades.
+___

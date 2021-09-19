@@ -1,0 +1,5 @@
+Estas son las opciones disponibles:
+
+1. Multiplicación en cruz
+2. Invertir y multiplicar
+3. Ambos métodos

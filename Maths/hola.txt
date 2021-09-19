@@ -1,0 +1,25 @@
+¡Matemáticas, hijo!
+SECCIÓN 2
+
+Bienvenido al menú "Divisiones con punto decimal"
+
+¿Listo para aprender cómo hacer divisiones con punto decimal?
+¡Empecemos!
+
+NOTA: Recuerda que cuando escribimos una división así: "7/2" o
+"7÷2", esto es igual que escribir la división con el 7 (dividendo)
+adentro de la caja o galera (lo que conocemos como la "casita"),
+y el 2 (que es el divisor) afuera de ella.
+
+Es útil clasificar estas divisiones en cuatro casos distintos:
+
+1. Cuando tenemos el punto decimal en el dividendo 
+
+2. Cuando tenemos el punto decimal en el divisor 
+
+3. Cuando hay punto decimal en el dividendo y en el divisor
+
+4. Cuando originalmente teníamos una división sencilla, pero no es exacta,
+y queremos agregarle decimales al resultado.
+
+OPRIME "5" SI DESEAS VER TODOS LOS CASOS

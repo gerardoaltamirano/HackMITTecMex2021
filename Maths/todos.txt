@@ -1,0 +1,89 @@
+Todos los casos:
+
+1. Cuando tenemos el punto decimal en el dividendo
+
+Aquí el punto decimal está en el dividendo, o sea los números 
+adentro de la "casita". Por ejemplo, 674.1 tiene punto decimal
+y lo dividimos entre 7, o sea es 674.1/7.
+
+En este caso, hay que hacer la división 
+como una división simple, ignorando el punto. Haz de cuenta
+que no está.  
+
+Cuando acabes, simplemente sube el punto decimal a tu resultado,
+lo alineas en donde corresponda. El resultado de 674.1÷7 es 96.3.
+___
+
+
+2. Cuando tenemos el punto decimal en el divisor
+
+El divisor se refiere a los números afuera de la "casita", lo que
+hay que hacer es ubicar al punto decimal ahí y contar cuántos
+espacios le faltan para llegar a ser un número "entero". Es lo mismo
+que contar los espacios a la derecha del punto. 
+Tomemos como ejemplo esta división: 377÷2.6. En este caso,  para el 
+el divisor "2.6", hay 1 espacio a la derecha del punto. 
+
+Cuando hayas contado estos espacios, este es el número de ceros
+que deberás agregar al dividendo antes de poder hacer la división.
+En este ejemplo, en lugar de 377/2.6, te quedará entonces 3770/26.
+
+Hay que hacer la división con estos números, 3770/26.
+El resultado da 145 tal cual, no hay que modificarlo de ninguna forma, 
+pero el divisor se queda como era originalmente. El resultado de 377/2.6
+es 145.
+
+Podemos comprobar el resultado multiplicando este resultado por
+el divisor, y esta operación nos debería dar el dividendo.
+Al multiplicar 145 x 2.6, lo que nos da es 377, por lo que es nuestro
+resultado es correcto. 
+___
+
+
+3. Cuando hay punto decimal en el dividendo y en el divisor
+
+Esta es una especie de mezcla de división con el punto en el dividendo 
+y con punto en el divisor. Lo que hay que hacer es ver cuántos espacios 
+hay a la derecha del punto decimal del divisor, o sea el número es que 
+está afuera de la "casita". Usaremos el ejemplo de 224.44/6.2
+
+
+Al hacer esto de los espacios es como si "quitáramos" el punto del divisor. 
+Sabemos que hubo un espacio a la derecha de este punto en 6.2, por lo que 
+también hay que mover el punto del dividendo el mismo número de espacios 
+que dijimos antes. 
+Si hubo dos espacios a la derecha del punto del divisor, movemos el punto 
+del dividendo dos espacios también. 
+Sin embargo, en este caso hubo 1 espacio, por lo que movemos el punto del 
+divisor 1 lugar a la derecha. Nos quedaría como 2244.4/62
+
+Ahora se puede hacer esta división como una división sólo con punto en el
+dividendo (ver caso 1).
+
+
+Nuestro resultado es 36.2, pero nuestro divisor es el original (6.2), y el 
+dividendo también se queda como estaba originalmente o sea (224.44).
+Podemos comprobar multiplicando el resultado por el divisor y ver que nos
+da el dividendo correctamente. 
+Por lo tanto, el resultado de dividir 224.44/6.2 = 36.2
+___
+
+
+4. Cuando originalmente teníamos una división sencilla, pero no es exacta,
+y queremos agregarle decimales al resultado.
+
+Pongamos como ejemplo esta división: 123/2
+Hacemos la división de forma normal, hasta que llegamos al final del
+dividendo y vemos que el residuo final no es 0.
+
+Aquí, agregamos un 0 al residuo que nos haya quedado. En este caso es 1,
+poniéndole un 0 a la derecha se convierte en un 10. Con este número se 
+sigue haciendo la división y se agregan dígitos nuevos al resultado. 
+Antes de esto, hay que poner un punto decimal alineado con el último 
+residuo (en este caso el 1) que obtuvimos, o alineado con el final "original"
+de la división, antes de ponerle un 0 al residuo.
+
+La división se acaba hasta que el residuo final sea 0, o hasta que tengas
+un resultado con el número de decimales que quieras. El resultado de 
+123/2 es 61.5
+___

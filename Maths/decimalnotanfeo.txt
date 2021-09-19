@@ -1,0 +1,6 @@
+Carlos quiere repartir una quinta parte de sus ahorros entre sus 
+doce sobrinos. Si Carlos ha ahorrado $20662.80, ¿cuánto le toca
+a cada sobrino?
+
+Da tu respuesta sin unidades.
+___

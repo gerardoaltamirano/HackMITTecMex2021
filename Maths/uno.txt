@@ -1,0 +1,13 @@
+1. Cuando tenemos el punto decimal en el dividendo
+
+Aquí el punto decimal está en el dividendo, o sea los números 
+adentro de la "casita". Por ejemplo, 674.1 tiene punto decimal
+y lo dividimos entre 7, o sea es 674.1/7.
+
+En este caso, hay que hacer la división 
+como una división simple, ignorando el punto. Haz de cuenta
+que no está.  
+
+Cuando acabes, simplemente sube el punto decimal a tu resultado,
+lo alineas en donde corresponda. El resultado de 674.1÷7 es 96.3.
+___

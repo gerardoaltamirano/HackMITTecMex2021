@@ -1,0 +1,23 @@
+Multiplicación en cruz
+
+Este método consiste en multiplicar el numerador de la primera fracción
+por el denominador de la segunda fracción y el resultado colocarlo en el
+numerador de la fracción final. Por otro lado, tenemos que multiplicar
+el denominador de la primera fracción por el numerador de la segunda
+fracción y el resultado lo escribimos en el denominador de la fracción final.
+
+Ejemplo:
+(2/3)/(7/5)
+
+Multiplicamos numerador de la primera fracción por el denominador de la 
+segunda fracción:
+2*5=10
+
+Multiplicamos el denominador de la primera fracción por el numerador de la
+segunda fracción:
+3*7=21
+
+Para determinar el resultado correcto, colocamos el resultado de la primera
+multiplicación en el numerador de la fracción final y el resultado de la 
+segunda multiplicación en el denominador de la fracción final:
+(2/3)/(7/5)= 10/21

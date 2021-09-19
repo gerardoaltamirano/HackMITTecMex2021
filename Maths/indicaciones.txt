@@ -1,0 +1,5 @@
+A partir de ahora, no podrás volver al menú principal
+
+Los ejercicios y problemas se te presentarán uno a uno, en caso de 
+equivocarte en alguno regresarás al anterior, por ejemplo, si te equivocas
+en el 4, regresas al 3

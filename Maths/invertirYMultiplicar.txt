@@ -1,0 +1,24 @@
+Invertir y multiplicar
+
+Este método consiste en invertir la SEGUNDA FRACCIÓN, es decir, cambiar 
+el denominador por el numerador y cambiar el numerador por el denominador. 
+Después, se multiplican las dos fracciones.
+Recuerda que para multiplicar fracciones se hace en línea: Numerador por 
+numerador y denominador por denominador.
+
+Ejemplo:
+(2/3)/(7/5)
+
+Invertimos la segunda fracción y la primera se queda igual:
+(2/3)*(5/7)
+
+Multiplicamos numerador por numerador:
+2*5=10
+
+Multiplicamos denominador por denominador:
+3*7=21
+
+Para determinar el resultado correcto, colocamos el resultado de la primera
+multiplicación en el numerador de la fracción final y el resultado de la 
+segunda multiplicación en el denominador de la fracción final:
+(2/3)/(5/7)= 10/21
