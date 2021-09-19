@@ -153,8 +153,7 @@ def bienvenida_total():
 ''')
     
     print('''
-Welcome to bloody maths, son, a game in which you will not only learn about math, but also improve your score on your next PISA test.
-but also improve your score on your next PISA test.
+Welcome to bloody maths, son, a game in which you will not only learn about math.
 We hope you have fun! But first...''')
     
     nombre_u()
