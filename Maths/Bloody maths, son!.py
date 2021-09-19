@@ -7,34 +7,34 @@ spaceU = 0
 res = "si"
 res2 = "si"
 nombre = {}
-#Función que le pide su nombre al usuario
+#Function that prompts the user for his or her name
 def nombre_u():
     
     global nombre
     
-    name = input("\nIntroduce tu nombre: ")
+    name = input("\nIntroduce your name ")
     nombre = name
-    print("\nJoder gran nombre")
+    print("\nFuck, what a great name")
     
     usuario()
     
-#Funcion que pide un usuario y valida que no tenga espacios
+#Function that requests a user and validates that it has no spaces.
 def usuario():
-    #funcion para repetir el ciclo si no es válido el usuario
+    #function to repeat the cycle if the user is invalid
     def repite():
         global res2
-        while res2 == "si":
+        while res2 == "yes":
             autentica()
             imprime()
         
         contraseña()
-#Función que pide el usuario    
+#Function that request the user    
     def pide_usuario():
         
-        usu = input("Introduce un usuario: ")
+        usu = input("Introduce an user: ")
         
         return usu
-#funcion que autentica que no tenga espacios
+#function que autentica que no tenga espacios
     def autentica():
         
         global spaceU
@@ -46,47 +46,47 @@ def usuario():
         for pos  in range (0,luser):
             if user[pos].isspace() == True:
                 spaceU += 1
-#funcion que avisa si es que tiene espacios
+#function that warns if it has spaces
     def imprime():
         
         global spaceU
         global res2
 
         if spaceU == 0:
-            print ("Usuario válido")
+            print ("Valid User")
             res2 = "no"
         else:
-            print("Contiene espacios")
-            print("Usuario Inválido")
+                print("There are spaces")
+            print("Invalid user")
             spaceU -= spaceU
                     
     repite()
-#funcion que pide y autentica la contraseña
+#function requesting and authenticating the password
 def contraseña():
-#funcion para repetir el ciclo si no es válida la contraseña    
+#function to repeat the cycle if the password is invalid    
     def repite():
         global res
-        while res == "si":
+        while res == "yes":
             autentica()
             imprime()
         
         respuesta_n()
-#Funcion que pide la contraseña        
+#Function asking for password        
     def pide_contraseña():
         
         print('''
-Recuerda que tu contraseña debe contener al menos:
-                                - una mayúscula
-                                - una minúscula
-                                - un número
-                                - un símbolo
-                                - mínimo 8 dígitos
+Remember that your password must contain at least
+                                - a capital letter
+                                - a lower case letter
+                                - a number
+                                - a symbol
+                                - minimum 8 digits
                                 ''')
         
-        cont = input("Introduzca una contraseña: ")
+        cont = input("Introduce a password: ")
         
         return cont
-#funcion que auntentica la contraseña
+#function that authenticates the password
     def autentica():
         
         global upper
@@ -112,8 +112,8 @@ Recuerda que tu contraseña debe contener al menos:
                 else:
                     digit += 1
         else:
-            print("No cumple con la longitud necesaria")
-#funcion que avisa si la contraseña está mal
+            print("There's no enough characters")
+#function that warns if the password is wrong
     def imprime():
         global upper
         global lower
@@ -127,66 +127,66 @@ Recuerda que tu contraseña debe contener al menos:
                 if digit >=1:
                     if num >=1:
                         if space == 0:
-                            print ("Contraseña válida")
+                            print ("Valid Password")
                             res = "no"
                         else:
-                            print("Contiene espacios")
-                            print("Contraseña Inválida")
+                            print("There's spaces")
+                            print("Invalid password")
                     else:
-                        print("No contiene números")
-                        print ("Contraseña inválida")
+                        print("There's no numbers")
+                        print ("Invalid password")
                 else:
-                    print("No contiene símbolos")
-                    print ("Contraseña inválida")
+                    print("There's no symbols")
+                    print ("Invalid password")
             else:
-                print("No contiene minúsculas")
-                print ("Contraseña inválida")
+                print("There's no lower case")
+                print ("Invalid password")
         else:
-            print("No contiene mayúsculas")
-            print ("Contraseña inválida")
+            print("There's no upper case")
+            print ("Invalid password")
     repite()
-#funcion que da la bienvenida
+#welcoming function
 def bienvenida_total():
     
     print('''
-¡MATEMÁTICAS, HIJO!
+!Bloody Math, Son!
 ''')
     
     print('''
-Bienvenido a ¡matemáticas, hijo!, un juego en el que no solo aprenderás sobre
-matemáticas, pero también mejorarás tu puntaje en tu próxima prueba PISA.
-¡Esperamos que te diviertas! Pero antes...''')
+Welcome to bloody maths, son, a game in which you will not only learn about math, but also improve your score on your next PISA test.
+but also improve your score on your next PISA test.
+We hope you have fun! But first...''')
     
     nombre_u()
-#funcion para o finalizar el programa
+#function to stop or end the program
 def respuesta_n():
     
-    respuesta = "si"
-    while respuesta == "si":
+    respuesta = "yes"
+    while respuesta == "yes":
         menu()
-        respuesta = input("¿Quieres correr el juego de nuevo?: ")
-    print("Hasta pronto wuuuuu")
-    input("Presiona ENTER para salir")
+        respuesta = input("Wanna play again?: ")
+    print("See you soon!")
+    input("Press ENTER to exit")
     respuesta = "no"
-#funcion que pide al usuario la opcion del menu
+#function prompting the user for the menu option
 def menu():
     print('''
-Ahora, a decidir...
+Now, to decide...
 
-1) Repasar división con punto decimal
-2) Repasar divisón de fracciones
-3) Ir directo a los niveles
+1) Review division with decimal point.
+2) Review division of fractions
+3) Go straight to levels
 ''')
     
-    opc = int(input("¿Qué opción deseas realizar?: "))
+    opc = int(input("What option would you like to choose?: "))
     
     if opc == 1 or opc == 2 or opc == 3:
         desvio(opc)
     
     else:
-        print("Número inválido")
+        print("Invalid number")
         respuesta_n()
-#Opción que devía la respuesta del usuario al menu        
+#Option that sends the user's answer to the menu        
 def desvio(opcion):
     
     if opcion == 1:
@@ -195,36 +195,35 @@ def desvio(opcion):
         divisiones_con_fracciones2()
     else:
         nivel1()
-
-#Funcion que activa la explicacion de divisiones con punto decimal
+#Function that activates the explanation of divisions with a decimal point.
 def divisiones_con_decimales():
-    #Funcion que da la bienvenida a la explicacion
+    #Function welcoming explanation
     def hola():
         hello = open("hola.txt","r",encoding="utf8")
         holi = hello.read()
         print(holi)
-        print('''\nPara ver explicaciones gráficas de cómo se hicieron las divisiones
-de los\nejemplos, visita: https://sabnrs.wixsite.com/matematicashijo''')
+        print('''\nFor graphical explanations of how the divisions of the examples were made, visit: .
+of the examples, please visit: https://sabnrs.wixsite.com/matematicashijo''')
         
         cual()
-    #funcion que pregunta al usuario por el caso que quiere ver
+    #function asking the user for the case he/she wants to see
     def cual():
-        opcion = input("\n¿Cuál caso quieres ver?: ")
+        opcion = input("\nWhich case do you wanna see?: ")
         print("")
         casos(opcion)
     
-    #Funcion para seguir viendo casos
+    #Function to continue viewing cases
     def seguir():
         
-        ans = input("¿Deseas seguir viendo casos?: ")
-        if ans.lower() == "si" or ans == "sí" or ans == "Sí":
+        ans = input("Do you wish to continue checking cases?: ")
+        if ans.lower() == "Yes" or ans == "yes":
             cual()
             
         else:
-            print("Volviendo al menú principal")
+            print("Returning to main menu")
             menu()
         
-    #Funcion que filtra la opcion elegida por el usuario    
+    #Function that filters the option chosen by the user.    
     def casos(caso):
         if caso >= "1" and caso <= "5":
             if caso == "1":
@@ -243,38 +242,38 @@ de los\nejemplos, visita: https://sabnrs.wixsite.com/matematicashijo''')
                 todo()
                         
         else:
-            print("Opción no válida. Intenta de nuevo.")
+            print("Invalid option, try again")
             cual()
     
-    #Funcion que explica todos los casos
+    #Function explaining all cases
     def todo():
         expli = open("todos.txt","r",encoding="utf8")
         todoo = expli.read()
         print(todoo)
         seguir()
     
-    #Funcion que explica el primer caso
+    #Function explaining the first case
     def uno():
         caso1 = open("uno.txt","r",encoding="utf8")
         unoo = caso1.read()
         print(unoo)
         seguir()
     
-    #Funcion que explica el segundo caso
+    #Function explaining the second case
     def dos():
         caso2 = open("dos.txt","r",encoding="utf8")
         doss = caso2.read()
         print(doss)
         seguir()
     
-    #Funcion que explica el tercer caso
+    #Function explaining the third case
     def tres():
         caso3 = open("tres.txt","r",encoding="utf8")
         tress = caso3.read()
         print(tress)
         seguir()
     
-    #Funcion que explica el cuarto caso
+    #Function explaining the fourth case
     def cuatro():
         caso4 = open("cuatro.txt","r",encoding="utf8")
         cuatroo = caso4.read()
@@ -282,10 +281,9 @@ de los\nejemplos, visita: https://sabnrs.wixsite.com/matematicashijo''')
         seguir()
     
     hola()
-
-#Funcion para la explicacion de division de fracciones
+#Function for the explanation of division of fractions
 def divisiones_con_fracciones2():
-    #funcion que da la bienvenida, pide el caso a escoger y lo filtra
+    #function that welcomes, asks for the case to choose and filters it
     def divisiones_con_fracciones():
         
         welcome = open("bienvenida.txt", "r", encoding = "UTF8")
@@ -296,7 +294,7 @@ def divisiones_con_fracciones2():
         opciones = options.read()
         print(opciones)
         
-        opcion = int(input("\n¿Qué opción deseas visualizar? "))
+        opcion = int(input("\nWhich option do you wish to check? "))
         print("")
         
         if opcion == 1:
@@ -315,37 +313,37 @@ def divisiones_con_fracciones2():
             continuar_o_niveles()
             
         else:
-            print("Esa no es una opción")
+            print("That is not an option")
             print(" ")
             
-    #muestra explicación para caso1
+    #show explanation for case1
     def multiplicacion_en_cruz():
         
         first = open("multiplicacionEnCruz.txt", "r", encoding = "UTF8")
         primera = first.read()
         print(primera)
         
-    #muestra explicación para casp 2
+    #show explanation for case2
     def invertir_y_multiplicar():
         
         second = open("invertirYMultiplicar.txt", "r", encoding = "UTF8")
         segunda = second.read()
         print(segunda)
         
-    #muestra explicación para ambos casos
+    #show explanation for both cases
     def ambos_metodos():
         
         multiplicacion_en_cruz()
         invertir_y_multiplicar()
 
-    #funcion para sefuir viendo casos o ir a niveles de juego
+    #function to continue choosing cases or go to game levels
     def continuar_o_niveles():
         
         c = open("continuar.txt", "r", encoding = "UTF8")
         conti = c.read()
         print(conti)
         
-        continuar = int(input("\n¿Qué opción escoges?:  "))
+        continuar = int(input("\nWhich option do you wanna choose?:  "))
         
         if continuar == 1:
             menu()
@@ -358,15 +356,15 @@ def divisiones_con_fracciones2():
             nivel1()
             
         else:
-            print("Esa no es una opción")
+            print("That's not an option")
             print(" ")
     
     divisiones_con_fracciones()
 
-#nivel 1 del juego
+#Level 1 of the game
 def nivel1():
     
-    #indicaciones del juego
+    #indications of the game
     def indicaciones():
     
         indications = open("indicaciones.txt", "r", encoding = "UTF8")
@@ -374,65 +372,65 @@ def nivel1():
         print(indicaciones)
         ejercicio1()
     
-    #Nivel 1 como tal
+    #LEVEL 1
     def ejercicio1():
     
         print("\nNivel 1: \n(1/6)/(5/9)")
-        respuesta1 = input("\n¿Cuál es el resultado?: ")
+        respuesta1 = input("\nWhat is the result?: ")
             
         if respuesta1 == "9/30" or respuesta1 == "3/10":
-            print("¡Correcto!")
+            print("¡Correct!")
             nivel2()
         else:
-            print("Respuesta incorrecta")
+            print("Incorrect answer")
             print("")
             ejercicio1()
     
     indicaciones()
 
-#nivel 2 del juego
+#lEVEL 2
 def nivel2():
     print("\nNivel 2: \n2.35/5")
-    respuesta1 = float(input("\n¿Cuál es el resultado?: "))
+    respuesta1 = float(input("\nWhat is the result?: "))
         
     if respuesta1 == .47:
-        print("¡Correcto!")
+        print("¡Correct!")
         nivel3()
         
     else:
-        print("Respuesta incorrecta")
+        print("Incorrect answer")
         print("")
         nivel1()
 
-#nivel 3 del juego
+#lEVEL 3
 def nivel3():
-    print("\n¡Nivel3!, vas a la mitad\n(347/38)/(255/32): ")
-    resp = input("¿Cuál es la fracción resultante simplificada?: ")
+    print("\n¡Nivel3!, You are halfway there\n(347/38)/(255/32): ")
+    resp = input("What is the simplified resultant fraction?: ")
     
     if resp == "5552/4845":
-        print("HÉROE")
+        print("HERO")
         nivel4()
     
     else:
-        print("aaaasiiiiiisteeeeenteeeee, de regreso")
+        print("Nooooo, comeee baaaackkk")
         nivel2()
     
-#nivel 4 del juego
+#LEVEL 4
 def nivel4():
     print("\nYA NIVEL 4 WUUUU\n345.654/32.987")
-    resp = float(input("¿Cuál es el resultado de la división? Redondea a 3 decimales: "))
+    resp = float(input("What is the result of the division? Round to 3 decimal places: "))
                         
     if resp == 10.478 or resp == 10.479:
-        print("HÉROE")
+        print("HERO")
         nivel5()
         
     else:
-        print("aaaasiiiiiisteeeeenteeeee, de regreso")
+        print("Noooooo, comeee baaackk")
         nivel3()
     
-#nivel 5 del juego
+#LEVEL 5
 def nivel5():
-    #Muestra el problema del nivel
+    #Displays the level problem
     def cinco():
         print("\nNIVEL 5")
         notanfeo = open("decimalnotanfeo.txt","r",encoding="utf8")
@@ -441,29 +439,29 @@ def nivel5():
         
         cincoans()
     
-    #pide respuesta al nivel y la filtra
+    #asks for level response and filters it
     def cincoans():
-        respues = float(input("Introduce tu respuesta: "))
+        respues = float(input("Introduce your answer: "))
         
-        #respuesta correcta: 344.38
+        #correct answer: 344.38
         if respues == 344.38:
-            print("\n¡Correcto! Pasas al siguiente nivel :)\n")
+            print("\n¡Correct, You go to next level :)\n")
             nivel6()
             
-            #MANDA LLAMAR A ESTE NIVEL ?
+            #Send this level to Call
             
         else:
-            print("\nRespuesta incorrecta.\nRegresas al nivel anterior.\n")
+            print("\nInvalid answer.\nyou return to the previous level.\n")
             
-            #Y AQUÍ LO REGRESA AL NIVEL PREVIO
+            #And here it returns to the previous level
             nivel4()
     
     cinco()
 
-#nivel 6 del juego
+#LEVEL 6
 def nivel6():
     
-    #Muestra el problema del nivel
+    #Displays the level problem
     def seis():
         print("\nNIVEL 6")
         feo = open("decimalfeo.txt","r",encoding="utf8")
@@ -472,27 +470,27 @@ def nivel6():
         
         seisans()
     
-    #pide y filtra la respuesta 
+    #ask and filter the answer 
     def seisans():
-        respuest = float(input("Introduce tu respuesta: "))
+        respuest = float(input("Introduce your answer: "))
         
-        #respuesta correcta: 49.81
+        #correct answer: 49.81
         if respuest == 49.81:
-            print("\n¡Correcto! Has terminado ¡Matemáticas, Hijo! :)\n")
+            print("\n¡Correct! You have completed Bloody maths, son! :)\n")
             
-            #CERTIFICADO
+            #CERTIFICATE
             certificado()
             
         else:
-            print("\nRespuesta incorrecta.\nRegresas al nivel anterior.\n")
-            #Y AQUÍ LO REGRESA AL NIVEL PREVIO
+            print("\nWrong answer. You return to the previous leveL.\n")
+            #And here it returns it to the previous level
             nivel5()
     seis()
-
-#función que arroja un certificado al usuario
+    
+#function that provides a certificate to the user
 def certificado():
     global nombre
-    input("Presiona ENTER para ver tu certificado")
+    input("Press ENTER to view your certificate")
     print(f'''
 --------------------------------------------------------------------------------
 
@@ -500,23 +498,25 @@ def certificado():
                                         DIPLOMA
                             
                             
-                A ¡matemáticas, hijo! nos enorgullece otorgar este diploma a:
+             Bloody Maths, son! is proud to award this diploma to:
                 
-                                {nombre}
+                                {name}
                                 
-                    por haber concluido con éxito los 6 niveles del juego
+                    for having successfully completed all 6 levels of the game.
                     
-                                    MUCHAS FELICIDADES
+                                    MANY CONGRATULATIONS
                                     
-                                    Y nunca olvides...
+                                    And never forget...
                                 
-                                    ¡MATEMÁTICAS, HIJO!
+                                    MATH, SON!
+
+
                                     
                                     
 --------------------------------------------------------------------------------
 ''')
-#fin del programa
+#End of the program
 
 
-#Llamando a función
+#Calling to function
 bienvenida_total()
