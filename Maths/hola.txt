@@ -1,25 +1,25 @@
-¡Matemáticas, hijo!
-SECCIÓN 2
+Bloody Math, son!
+SECTION 2
 
-Bienvenido al menú "Divisiones con punto decimal"
+Welcome to the "Divisions with decimal point" menu
 
-¿Listo para aprender cómo hacer divisiones con punto decimal?
-¡Empecemos!
+Ready to learn how to divide with a decimal point?
+Let us begin!
 
-NOTA: Recuerda que cuando escribimos una división así: "7/2" o
-"7÷2", esto es igual que escribir la división con el 7 (dividendo)
-adentro de la caja o galera (lo que conocemos como la "casita"),
-y el 2 (que es el divisor) afuera de ella.
+NOTE: Remember that when we write a division like this: "7/2" or
+"7 ÷ 2", this is the same as writing the division with the 7 (dividend)
+inside the box or galley (what we know as the "little house"),
+and the 2 (which is the divisor) outside of it.
 
-Es útil clasificar estas divisiones en cuatro casos distintos:
+It is useful to classify these divisions in four different cases:
 
-1. Cuando tenemos el punto decimal en el dividendo 
+1. When we have the decimal point in the dividend
 
-2. Cuando tenemos el punto decimal en el divisor 
+2. When we have the decimal point in the divisor
 
-3. Cuando hay punto decimal en el dividendo y en el divisor
+3. When there is a decimal point in the dividend and in the divisor
 
-4. Cuando originalmente teníamos una división sencilla, pero no es exacta,
-y queremos agregarle decimales al resultado.
+4. When originally we had a simple division, but it is not exact,
+and we want to add decimals to the result.
 
-OPRIME "5" SI DESEAS VER TODOS LOS CASOS
+PRESS "5" IF YOU WANT TO SEE ALL THE CASES
