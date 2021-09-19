@@ -1,27 +1,27 @@
-3. Cuando hay punto decimal en el dividendo y en el divisor
+3. When there is a decimal point in the dividend and in the divisor
 
-Esta es una especie de mezcla de división con el punto en el dividendo 
-y con punto en el divisor. Lo que hay que hacer es ver cuántos espacios 
-hay a la derecha del punto decimal del divisor, o sea el número es que 
-está afuera de la "casita". Usaremos el ejemplo de 224.44/6.2
-
-
-Al hacer esto de los espacios es como si "quitáramos" el punto del divisor. 
-Sabemos que hubo un espacio a la derecha de este punto en 6.2, por lo que 
-también hay que mover el punto del dividendo el mismo número de espacios 
-que dijimos antes. 
-Si hubo dos espacios a la derecha del punto del divisor, movemos el punto 
-del dividendo dos espacios también. 
-Sin embargo, en este caso hubo 1 espacio, por lo que movemos el punto del 
-divisor 1 lugar a la derecha. Nos quedaría como 2244.4/62
-
-Ahora se puede hacer esta división como una división sólo con punto en el
-dividendo (ver caso 1).
+This is kind of a mix of division with the point in the dividend
+and with dot on the divider. What you have to do is see how many spaces
+there is to the right of the decimal point of the divisor, that is, the number is that
+It is outside the "little house". We will use the example of 224.44 / 6.2
 
 
-Nuestro resultado es 36.2, pero nuestro divisor es el original (6.2), y el 
-dividendo también se queda como estaba originalmente o sea (224.44).
-Podemos comprobar multiplicando el resultado por el divisor y ver que nos
-da el dividendo correctamente. 
-Por lo tanto, el resultado de dividir 224.44/6.2 = 36.2
+By doing this of the spaces it is as if we "remove" the point of the divisor.
+We know that there was a space to the right of this point in 6.2, so
+you also have to move the point of the dividend the same number of spaces
+that we said before.
+If there were two spaces to the right of the point of the divisor, we move the point
+of the dividend two spaces as well.
+However, in this case there was 1 space, so we move the point of the
+divider 1 place to the right. It would fit us like 2244.4 / 62
+
+Now you can do this division as a division only with point in the
+dividend (see case 1).
+
+
+Our result is 36.2, but our divisor is the original (6.2), and the
+dividend also remains as it was originally (224.44).
+We can check multiplying the result by the divisor and see that we
+gives the dividend correctly.
+Therefore, the result of dividing 224.44 / 6.2 = 36.2
 ___
