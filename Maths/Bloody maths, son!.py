@@ -1,4 +1,4 @@
-upper = 1
+upper = 0
 lower = 0
 digit = 0
 num = 0
