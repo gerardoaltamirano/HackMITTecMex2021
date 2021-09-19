@@ -1,5 +1,5 @@
-Estas son las opciones disponibles:
+These are the available options:
 
-1. Multiplicación en cruz
-2. Invertir y multiplicar
-3. Ambos métodos
+1. Crossed multiplication
+2. Invert and multiply
+3. Both methods
