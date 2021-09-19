@@ -1,5 +1,5 @@
-Puedes continuar viendo métodos o empezar a jugar, estas son tus opciones:
+You can continue reviewing methods or begin to play, this are your options:
 
-1. Regresar al menú principal
-2. Regresar al menú de los métodos de división de fracciones
-3. Jugar
+1. Back to the main menu
+2. Back to methods menu
+3. Play
