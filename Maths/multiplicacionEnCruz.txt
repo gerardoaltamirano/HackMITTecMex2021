@@ -1,23 +1,23 @@
-Multiplicación en cruz
+Crossed multiplication
 
-Este método consiste en multiplicar el numerador de la primera fracción
-por el denominador de la segunda fracción y el resultado colocarlo en el
-numerador de la fracción final. Por otro lado, tenemos que multiplicar
-el denominador de la primera fracción por el numerador de la segunda
-fracción y el resultado lo escribimos en el denominador de la fracción final.
+This method consists of multiplying the numerator of the first fraction
+by the denominator of the second fraction and place the result in the
+numerator of the final fraction. On the other hand, we have to multiply
+the denominator of the first fraction times the numerator of the second
+fraction and we write the result in the denominator of the final fraction.
 
-Ejemplo:
-(2/3)/(7/5)
+Example:
+(2/3) / (7/5)
 
-Multiplicamos numerador de la primera fracción por el denominador de la 
-segunda fracción:
-2*5=10
+We multiply the numerator of the first fraction by the denominator of the
+second fraction:
+2 * 5 = 10
 
-Multiplicamos el denominador de la primera fracción por el numerador de la
-segunda fracción:
-3*7=21
+We multiply the denominator of the first fraction by the numerator of the
+second fraction:
+3 * 7 = 21
 
-Para determinar el resultado correcto, colocamos el resultado de la primera
-multiplicación en el numerador de la fracción final y el resultado de la 
-segunda multiplicación en el denominador de la fracción final:
-(2/3)/(7/5)= 10/21
+To determine the correct result, we place the result of the first
+multiplication in the numerator of the final fraction and the result of the
+second multiplication in the denominator of the final fraction:
+(2/3) / (7/5) = 10/21
