@@ -1,23 +1,23 @@
-2. Cuando tenemos el punto decimal en el divisor
+2. When we have the decimal point in the divisor
 
-El divisor se refiere a los números afuera de la "casita", lo que
-hay que hacer es ubicar al punto decimal ahí y contar cuántos
-espacios le faltan para llegar a ser un número "entero". Es lo mismo
-que contar los espacios a la derecha del punto. 
-Tomemos como ejemplo esta división: 377÷2.6. En este caso,  para el 
-el divisor "2.6", hay 1 espacio a la derecha del punto. 
+The divisor refers to the numbers outside the "little house", which
+you have to do is locate the decimal point there and count how many
+spaces are missing to become an "integer" number. Is the same
+to count the spaces to the right of the period.
+Let's take this division as an example: 377 ÷ 2.6. In this case, for the
+the divisor "2.6", there is 1 space to the right of the period.
 
-Cuando hayas contado estos espacios, este es el número de ceros
-que deberás agregar al dividendo antes de poder hacer la división.
-En este ejemplo, en lugar de 377/2.6, te quedará entonces 3770/26.
+When you have counted these spaces, this is the number of zeros
+that you will need to add to the dividend before you can do the division.
+In this example, instead of 377 / 2.6, you will have 3770/26.
 
-Hay que hacer la división con estos números, 3770/26.
-El resultado da 145 tal cual, no hay que modificarlo de ninguna forma, 
-pero el divisor se queda como era originalmente. El resultado de 377/2.6
-es 145.
+You have to do the division with these numbers, 3770/26.
+The result gives 145 as is, it is not necessary to modify it in any way,
+but the divider remains as it was originally. The result of 377 / 2.6
+is 145.
 
-Podemos comprobar el resultado multiplicando este resultado por
-el divisor, y esta operación nos debería dar el dividendo.
-Al multiplicar 145 x 2.6, lo que nos da es 377, por lo que es nuestro
-resultado es correcto. 
+We can check the result by multiplying this result by
+the divisor, and this operation should give us the dividend.
+By multiplying 145 x 2.6, what it gives us is 377, making it our
+result is correct.
 ___
