@@ -1,18 +1,18 @@
-4. Cuando originalmente teníamos una división sencilla, pero no es exacta,
-y queremos agregarle decimales al resultado.
+4. when we have a simple division but not exact, adding decinals to the
+result
 
-Pongamos como ejemplo esta división: 123/2
-Hacemos la división de forma normal, hasta que llegamos al final del
-dividendo y vemos que el residuo final no es 0.
+Let's take as an example this division: 123/2
+We do the division in the normal way, until we reach the end of the
+dividend and we see that the final remainder is not 0.
 
-Aquí, agregamos un 0 al residuo que nos haya quedado. En este caso es 1,
-poniéndole un 0 a la derecha se convierte en un 10. Con este número se 
-sigue haciendo la división y se agregan dígitos nuevos al resultado. 
-Antes de esto, hay que poner un punto decimal alineado con el último 
-residuo (en este caso el 1) que obtuvimos, o alineado con el final "original"
-de la división, antes de ponerle un 0 al residuo.
+Here, we add a 0 to the remainder that we have left. In this case it is 1,
+putting a 0 to the right becomes a 10. With this number we
+keep doing the division and add new digits to the result.
+Before this, you have to put a decimal point aligned with the last
+remainder (in this case the 1) that we obtained, or aligned with the final "original"
+of the division, before putting a 0 to the remainder.
 
-La división se acaba hasta que el residuo final sea 0, o hasta que tengas
-un resultado con el número de decimales que quieras. El resultado de 
-123/2 es 61.5
+The division is finished until the final remainder is 0, or until you have
+a result with the number of decimal places you want. The result of
+123/2 is 61.5
 ___
