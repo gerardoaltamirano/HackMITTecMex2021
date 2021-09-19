@@ -1,24 +1,24 @@
-Invertir y multiplicar
+Invert and multiply
 
-Este método consiste en invertir la SEGUNDA FRACCIÓN, es decir, cambiar 
-el denominador por el numerador y cambiar el numerador por el denominador. 
-Después, se multiplican las dos fracciones.
-Recuerda que para multiplicar fracciones se hace en línea: Numerador por 
-numerador y denominador por denominador.
+This method consists of inverting the SECOND FRACTION, that is, changing
+the denominator for the numerator and change the numerator for the denominator.
+Then the two fractions are multiplied.
+Remember that to multiply fractions it is done online: Numerator by
+numerator and denominator by denominator.
 
-Ejemplo:
-(2/3)/(7/5)
+Example:
+(2/3) / (7/5)
 
-Invertimos la segunda fracción y la primera se queda igual:
-(2/3)*(5/7)
+We invert the second fraction and the first remains the same:
+(2/3) * (5/7)
 
-Multiplicamos numerador por numerador:
-2*5=10
+We multiply numerator by numerator:
+2 * 5 = 10
 
-Multiplicamos denominador por denominador:
-3*7=21
+We multiply denominator by denominator:
+3 * 7 = 21
 
-Para determinar el resultado correcto, colocamos el resultado de la primera
-multiplicación en el numerador de la fracción final y el resultado de la 
-segunda multiplicación en el denominador de la fracción final:
-(2/3)/(5/7)= 10/21
+To determine the correct result, we place the result of the first
+multiplication in the numerator of the final fraction and the result of the
+second multiplication in the denominator of the final fraction:
+(2/3) / (5/7) = 10/21
